@@ -1,6 +1,9 @@
+body{
+	margin: 9px 15px;
+}
 .logo {
 	display: block;
-	margin: 150px auto 0 auto;
+	margin: 125px auto 0 auto;
 }
 .topbar {
 	list-style-type: none;
@@ -14,13 +17,14 @@ li {
 }
 li a {
 	display: block;
-	color: grey;
+	color: #3F3F47;
 	text-align: center;
-	padding: 8px 16px;
+	padding: 15px 9px;
 	text-decoration: none;
 }
 a {
-	
+	font-family: Arial;
+	font-size: 13px;
 }
 a:hover {
 	text-decoration: underline;
