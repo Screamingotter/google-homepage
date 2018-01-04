@@ -1,16 +1,27 @@
-img.logo{
+.logo {
 	display: block;
-	margin: 200px auto 0 auto;
+	margin: 150px auto 0 auto;
 }
-ul {
+.topbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
+	background-color: white;
 }
-li{
-	display: inline;
+li {
+	float: left;
 }
-li a{
+li a {
+	display: block;
+	color: grey;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+a {
 	
-	width: 60px;
+}
+a:hover {
+	text-decoration: underline;
 }
