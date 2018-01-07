@@ -23,11 +23,11 @@ li a {
 	padding: 15px 9px;
 	text-decoration: none;
 }
-a {
+a, p {
 	font-family: Arial;
 	font-size: 13px;
 }
-a:hover {
+a:hover, .french a:hover {
 	text-decoration: underline;
 }
 .searchbar {
@@ -47,14 +47,23 @@ input[type=text] {
 }
 input[type=submit] {
 	background-color: #F4F4F4;
-	border: none;
 	padding: 10px;
 	color: #887575;
 	margin: 2px;
-	padding: 10px;
+	padding: 10px 15px;
 	border: 1px solid white;
+	font-weight: 500;
+	font-size: 13px;
 }
 input[type=submit]:hover {
 	border: 1px solid #C9C9C9;
 	color: black;
+}
+.french {
+	text-align: center;
+	color: #3F3F47;
+}
+.french a {
+	text-decoration: none;
+
 }
