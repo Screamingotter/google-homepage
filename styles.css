@@ -55,6 +55,6 @@ input[type=submit] {
 	border: 1px solid white;
 }
 input[type=submit]:hover {
-	border: 1px solid black;
+	border: 1px solid #C9C9C9;
 	color: black;
 }
