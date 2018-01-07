@@ -37,7 +37,24 @@ input[type=text] {
 	width: 555px;
 	border: 1px solid;
 	border-color: #C9C9C9;
-	box-shadow: 0px 2px 5px 0.25px #C9C9C9;
+	box-shadow: 0px 2px 4px 0.25px #C9C9C9;
 	border-radius: 0;
 	padding: 13px;
+}
+.buttons {
+	text-align: center;
+	margin: 25px;
+}
+input[type=submit] {
+	background-color: #F4F4F4;
+	border: none;
+	padding: 10px;
+	color: #887575;
+	margin: 2px;
+	padding: 10px;
+	border: 1px solid white;
+}
+input[type=submit]:hover {
+	border: 1px solid black;
+	color: black;
 }
