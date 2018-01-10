@@ -6,7 +6,7 @@ body{
 	margin: 115px auto 0 auto;
 	padding: 10px;
 }
-.topbar {
+.topbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
