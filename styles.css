@@ -1,5 +1,5 @@
 body{
-	margin: 9px 15px;
+	margin: auto auto 0 auto;
 }
 .logo {
 	display: block;
@@ -13,10 +13,10 @@ body{
 	overflow: hidden;
 	background-color: white;
 }
-li {
+.topbar ul li {
 	float: left;
 }
-li a {
+.topbar li a {
 	display: block;
 	color: #3F3F47;
 	text-align: center;
@@ -25,9 +25,9 @@ li a {
 }
 a, p {
 	font-family: Arial;
-	font-size: 13px;
+	font-size: small;
 }
-a:hover, .french a:hover {
+a:hover, .french a:hover, .bottomnav ul a:hover {
 	text-decoration: underline;
 }
 .searchbar {
@@ -66,5 +66,8 @@ input[type=submit]:hover {
 }
 .french a {
 	text-decoration: none;
+
+}
+#footer {
 
 }
