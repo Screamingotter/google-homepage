@@ -1,4 +1,6 @@
 html {
+	margin: 0;
+	padding: 0;
 	height: 100%;
 }
 body {
@@ -36,7 +38,7 @@ a, p {
 .french a {
 	color: blue;
 }
-a:hover {
+a:hover, .topbar ul li a:hover {
 	text-decoration: underline;
 }
 .searchbar {
@@ -72,24 +74,44 @@ input[type=submit]:hover {
 .french {
 	text-align: center;
 }
+.region{
+	background-color: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+	overflow: hidden;
+	position: absolute;
+	bottom: 27px;
+	width: 100%;
+	padding: 6px 0 6px 0;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+.region p {
+	padding-left: 14px;
+}
+.region p:hover {
+	text-decoration: underline;
+}
 .botnav {
-	background-color: grey;
+	background-color: #F2F2F2;
 	border-top: 1px solid #E4E4E4;
 	overflow: hidden;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	padding: 6px 14px 6px 14px;
+	padding: 6px 0 6px 0;
+	margin-bottom: 6px;
+	margin-right: 0;
 	display: inline-block;
 }
 .botnav li {
 	display: inline;
 	position: relative;
-	padding: 6px 14px 12px 14px;
+	padding: 12px 14px 12px 14px;
 }
 .botright {
 	float: right;
 	display: inline-block;
 	margin: 0;
 	padding-right: 28px;
+	padding-bottom: 0;
 }
